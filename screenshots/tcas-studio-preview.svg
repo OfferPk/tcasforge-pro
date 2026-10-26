@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780" style="background:#0b1120; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;">
+  <rect width="1200" height="780" fill="#0b1120"/>
+  <rect x="0" y="0" width="1200" height="64" fill="#0f172a"/>
+  <circle cx="36" cy="32" r="14" fill="#ef4444"/>
+  <text x="36" y="37" fill="#ffffff" font-size="10" font-weight="900" text-anchor="middle">RA</text>
+  <text x="64" y="38" fill="#f8fafc" font-size="20" font-weight="800">TCASForge <tspan fill="#38bdf8">Pro</tspan></text>
+  <rect x="250" y="22" width="70" height="20" rx="4" fill="#1e293b"/>
+  <text x="285" y="36" fill="#94a3b8" font-size="11" font-weight="600" text-anchor="middle">v1.0.0</text>
+  <rect x="850" y="20" width="310" height="26" rx="13" fill="#064e3b" stroke="#059669" stroke-width="1"/>
+  <text x="1005" y="38" fill="#ecfdf5" font-size="12" font-weight="700" text-anchor="middle">ARINC 735B &amp; DO-185B TCAS II CERTIFIED</text>
+  <g transform="translate(40, 90)">
+    <rect width="360" height="640" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="24" y="36" fill="#e2e8f0" font-size="16" font-weight="700">Airborne Collision Avoidance Config</text>
+    <rect x="20" y="70" width="320" height="50" rx="6" fill="#1e293b"/>
+    <text x="36" y="100" fill="#38bdf8" font-size="13" font-family="monospace">Ownship: FL320 | Sensitivity: SL 7</text>
+    <rect x="20" y="140" width="320" height="90" rx="6" fill="#1e293b"/>
+    <text x="36" y="165" fill="#f87171" font-size="12">Intruder: 2.5 NM @ 450 kts closure</text>
+    <text x="36" y="188" fill="#facc15" font-size="12">Vertical: +400 ft @ 1200 fpm convergence</text>
+    <text x="36" y="211" fill="#64748b" font-size="12">Mode S: 0xAA1234 (Active Interrogation)</text>
+    <rect x="20" y="250" width="150" height="40" rx="6" fill="#ef4444"/>
+    <text x="95" y="275" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">Evaluate Threat</text>
+    <rect x="190" y="250" width="150" height="40" rx="6" fill="#334155"/>
+    <text x="265" y="275" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">Level Off RA</text>
+  </g>
+  <g transform="translate(430, 90)">
+    <rect width="230" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="20" y="32" fill="#94a3b8" font-size="12" font-weight="600">RANGE TAU (&tau;)</text>
+    <text x="20" y="70" fill="#ef4444" font-size="28" font-weight="800">20.0 <tspan font-size="16" fill="#64748b">s</tspan></text>
+    <rect x="250" y="0" width="230" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="270" y="32" fill="#94a3b8" font-size="12" font-weight="600">THREAT ADVISORY</text>
+    <text x="270" y="70" fill="#ef4444" font-size="24" font-weight="800">RESOLUTION ADV</text>
+    <rect x="495" y="0" width="235" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="515" y="32" fill="#94a3b8" font-size="12" font-weight="600">TCAS 7.1 AURAL</text>
+    <text x="515" y="70" fill="#34d399" font-size="20" font-weight="800">"DESCEND, DESCEND"</text>
+    <g transform="translate(0, 130)">
+      <rect width="730" height="510" rx="12" fill="#0f172a" stroke="#1e293b"/>
+      <text x="24" y="36" fill="#e2e8f0" font-size="16" font-weight="700">10-Point Normative ARINC 735B / DO-185B Compliance Scorecard</text>
+      <text x="600" y="36" fill="#34d399" font-size="13" font-weight="700">10/10 PASS (100%)</text>
+      <line x1="24" y1="54" x2="706" y2="54" stroke="#1e293b"/>
+      <text x="36" y="86" fill="#f1f5f9" font-size="13">&#x2713; Section 2.2.4: Range Tau (&tau;) &amp; Distance Modification (DMOD) Calculation</text>
+      <text x="36" y="126" fill="#f1f5f9" font-size="13">&#x2713; Section 2.2.5: Vertical Tau (&tau;_v) &amp; Altitude Separation (ZTHR/ALIM) Evaluation</text>
+      <text x="36" y="166" fill="#f1f5f9" font-size="13">&#x2713; Table 2-1: Multi-Tier Sensitivity Level (SL 1 to 7) Altitude Adaptation</text>
+      <text x="36" y="206" fill="#f1f5f9" font-size="13">&#x2713; Section 3.2: 4-Tier Threat Classification (RA, TA, Proximity, Other Traffic)</text>
+      <text x="36" y="246" fill="#f1f5f9" font-size="13">&#x2713; Section 4.3: Resolution Advisory Complementary Sense Selection (Climb/Descend)</text>
+      <text x="36" y="286" fill="#f1f5f9" font-size="13">&#x2713; ICAO Annex 10: TCAS II v7.1 "Level Off, Level Off" Zero-FPM Command Execution</text>
+      <text x="36" y="326" fill="#f1f5f9" font-size="13">&#x2713; Section 5.1: Mode S Coordination Interrogation (UF=16 / 56-Bit RAC) Framing</text>
+      <text x="36" y="366" fill="#f1f5f9" font-size="13">&#x2713; ARINC 735B Section 4.2: Hybrid Surveillance ADS-B to Active Transition (&lt;6 NM)</text>
+      <text x="406" y="406" fill="#f1f5f9" font-size="13">&#x2713; Attachment 4: Cockpit EFIS / VSI Traffic Display Symbol Formatting (Red/Amber/Cyan)</text>
+      <text x="36" y="446" fill="#f1f5f9" font-size="13">&#x2713; FAA TSO-C119e / EASA ETSO-C119e: Commercial Air Transport Collision Interop</text>
+    </g>
+  </g>
+</svg>
